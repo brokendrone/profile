@@ -1,0 +1,33 @@
+// reset margin and padding
+* {
+   margin: 0px;
+   padding: 0px;
+}
+
+// fonts
+$logo-font: 'Pacifico', cursive;
+
+// main code
+body {
+  background:
+  radial-gradient(black 15%, transparent 16%) 0 0,
+  radial-gradient(black 15%, transparent 16%) 8px 8px,
+  radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+  radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+  background-color:#282828;
+  background-size:16px 16px;
+}
+
+// first use of variable in sass
+h1 {
+  font-family: $logo-font;
+}
+header {
+  padding: 1em 1em;
+  background: rgba(255, 255, 255, .1);
+  box-shadow: 0 0.5em 0.5em rgba(0, 0, 0, .5);
+}
+
+ul{
+  list-style-type: none;
+}
